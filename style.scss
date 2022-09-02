@@ -1,0 +1,59 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: hsl(217, 54%, 11%);
+}
+.card{
+    border-radius: 20px;
+    padding: auto;
+    width: 375px;
+    color: hsl(0, 0%, 100%);
+    margin: 50px auto;
+    background: hsl(216, 50%, 16%);
+    .image{
+        border-radius: 20px;
+        width: 22.2em;
+        margin:  auto;
+        padding: 10px;
+    }
+    .content{
+        margin-left: 10px;
+        padding: 10px;
+        .text{
+            color: hsl(215, 51%, 70%);
+        }
+        p{
+            font-size: 18px;
+        }
+        .split{
+            display: flex;
+            .left{
+                color: hsl(178, 100%, 50%);
+                font-weight: bold;
+                margin-right: 110px;
+            }
+        }
+        hr{
+            border-color: hsl(215, 32%, 27%);
+        }.flex{
+            display: flex;
+            .avatar{
+                border-color: hsl(0, 0%, 100%);
+                width: 20%;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+a.text-hover{
+    text-decoration: none;
+    color: white;
+}
+.text-hover:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution{
+    margin: 20px auto;
+}

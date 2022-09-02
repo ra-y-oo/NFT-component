@@ -1,0 +1,78 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0d192b;
+}
+
+.card {
+  border-radius: 20px;
+  padding: auto;
+  width: 375px;
+  color: white;
+  margin: 50px auto;
+  background: #14253d;
+}
+
+.card .image {
+  border-radius: 20px;
+  width: 22.2em;
+  margin: auto;
+  padding: 10px;
+}
+
+.card .content {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.card .content .text {
+  color: #8bacda;
+}
+
+.card .content p {
+  font-size: 18px;
+}
+
+.card .content .split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .content .split .left {
+  color: #00fff7;
+  font-weight: bold;
+  margin-right: 110px;
+}
+
+.card .content hr {
+  border-color: #2f415b;
+}
+
+.card .content .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .content .flex .avatar {
+  border-color: white;
+  width: 20%;
+  margin-right: 20px;
+}
+
+a.text-hover {
+  text-decoration: none;
+  color: white;
+}
+
+.text-hover:hover {
+  color: #00fff7;
+}
+
+.attribution {
+  margin: 20px auto;
+}
+/*# sourceMappingURL=style.css.map */
